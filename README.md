@@ -11,8 +11,9 @@
 
 #### Create a repo on github, create development branch, add some changes to development branch and then merge it with master
   * create branch called development
+  * make some changes in files
   * create a pull request 
-  * pull request merged 
+  * pull request merged by master
 
 #### Create a repo, changes the default branch from master to development
   * git branch development
