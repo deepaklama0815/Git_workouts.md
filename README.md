@@ -15,5 +15,6 @@
   * pull request merged 
 
 #### Create a repo, changes the default branch from master to development
+  * git branch development
   * on settings, go to branches change the default branch and make update.
 #### You can have Branch protection  rule 
