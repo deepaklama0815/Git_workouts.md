@@ -24,3 +24,10 @@
   * git log
   * copy the commit id of unchanged version
   * git (commit id) --hard (throws back to earlier place)
+#### Working with branches
+  * git branch development -- will create a development branch
+  * git checkout development -- you can now make some changes in development branch
+  * git add .
+  * git commit -m "made changes"
+  * git push -u origin master -- will push changes made in development to master
+  * git merge development -- will merge changes in development
