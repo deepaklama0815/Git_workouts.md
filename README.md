@@ -31,3 +31,6 @@
   * git commit -m "made changes"
   * git push -u origin master -- will push changes made in development to master
   * git merge development -- will merge changes in development
+#### .gitignore
+  * you can keep files inside .gitignore and if you do git status, you will see only .gitignore 
+  * lets say you make abc.log, bcd.log and .gitignore; you can vi .gitignore and .*log inside it. You can see the files by ls but you only see .gitignore in git status. 
