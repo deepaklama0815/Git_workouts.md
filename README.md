@@ -20,3 +20,7 @@
   * git branch development
   * on settings, go to branches change the default branch and make update.
 #### You can have Branch protection  rule 
+#### Reset must be done within the same branch
+  * git log
+  * copy the commit id of unchanged version
+  * git (commit id) --hard (throws back to earlier place)
