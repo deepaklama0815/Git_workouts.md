@@ -44,9 +44,9 @@
   * cd
   * ln -s /tmp/abc.txt shortcutabc.txt
 #### giving permission to file name
-  * chmod 700 <filename>
-  * chmod 600 <filename>
-  * chmod 755 <filename> and so on
+  * chmod 700 {filename}
+  * chmod 600 {filename}
+  * chmod 755 {filename} and so on
 #### More, less, head, tail
   * more >> enter (more%) , b (less%)
   * less >> space (down) b (up)
