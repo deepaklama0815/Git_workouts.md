@@ -1,3 +1,40 @@
+#### For more info, you may visit below link:
+  * https://www.atlassian.com/git/tutorials/syncing/git-pull
+#### Things you need to do to add files on github if you alredy have existing files in it
+  * You clone {link}
+  * go into the folder
+  * git status
+  * you may add username and email with below commands
+  * git config --global user.name "robin"
+  * git config --global user.email "xyz@gmail.com"
+  * you can make change in files if you want
+  * git commit -a -m "message" or follow below step
+  * you may do git add {file.txt} or git add . ->to add anything and then commit with message
+  * git log 
+  * you will see the commit id
+  * git reset {commit id} to return back to previous changes
+  * git pull -> You want to pull from github when somebody makes changes on github(remote) and you want to have that change reflect on your local
+  * Note: git pull {remote} -> is same as git fetch {remote} followed by git merge origin/{current branch}
+  * git remote (will show origin)
+  * git push origin master (where origin -> remote and branch -> master)
+  
+#### Things you need to do want to create a new folder and make a complete start using new repo
+  * git init (do ls -lart) (you will see .git hidden directory)
+  * git remote (you will not see anything since you are starting a complete new setup from local)
+  * git remote -v (you may not see anything)
+  * don't initialize with redme
+  * git remote add origin {link}
+  * git remote or git remote -v to see
+  * git push origin master 
+#### To work on different branches
+  * git branch
+  * git branch development
+  * git checkout development
+  * make changes
+  * git push master
+  * git checkout master
+  * git merge development
+  
 #### Create a repo mysource, add some files, clone it locally and then push it to  new repo called mytarget
   * Create a new repo at github.
   * Create second repo
