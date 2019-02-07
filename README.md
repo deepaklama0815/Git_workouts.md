@@ -34,6 +34,11 @@
   * git push master
   * git checkout master
   * git merge development
+#### Resolving confict
+  * you neet to resolve git conflict if two developers made changes in the same line of code.
+  * On github, you need to delete lines like >>>>>> and =======
+  * Do commit merge.
+  * Merge merge pull request and confirm merge
   
 #### Create a repo mysource, add some files, clone it locally and then push it to  new repo called mytarget
   * Create a new repo at github.
