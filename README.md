@@ -41,7 +41,7 @@
   * Merge merge pull request and confirm merge
   
 #### Create a repo mysource, add some files, clone it locally and then push it to  new repo called mytarget
-  * Create a new repo at github.
+  * Create a new repo at github (do not add any readme file or initialize git).
   * Create second repo
   * Clone 1st repo (under 1st repo folder, create some files) git clone in local (copy source path and clone)
   * Git remote -v (will take origin by default)
